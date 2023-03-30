@@ -1,0 +1,14 @@
+{
+  "resourceName": "news",
+  "tableName": "news",
+  "partitionKey": {
+    "fieldName": "Id",
+    "fieldType": "string"
+  },
+  "sortKey": {
+    "fieldName": "Source",
+    "fieldType": "string"
+  },
+  "gsi": [],
+  "triggerFunctions": []
+}

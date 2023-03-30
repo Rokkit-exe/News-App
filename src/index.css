@@ -15,3 +15,13 @@ code {
 .full-height {
   min-height: 100vh;
 }
+
+.logo-size-header {
+  height: 8vmin;
+  pointer-events: none;
+}
+
+.logo-size-footer {
+  height: 4vmin;
+  pointer-events: none;
+}

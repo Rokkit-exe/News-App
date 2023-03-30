@@ -3,7 +3,7 @@ import MainContainer from '../components/MainContainer'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 
-function Home() {
+function Stock() {
   return (
     <MainContainer>
         <Header/>
@@ -12,4 +12,4 @@ function Home() {
   )
 }
 
-export default Home
+export default Stock

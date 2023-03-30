@@ -10,6 +10,20 @@
       "StackName": "amplify-newsapp-dev-151322",
       "StackId": "arn:aws:cloudformation:us-east-1:102008352014:stack/amplify-newsapp-dev-151322/c713dd60-ce65-11ed-8d3b-122b6b0ef4b9",
       "AmplifyAppId": "dnjh5kknarmyz"
+    },
+    "categories": {
+      "function": {
+        "NewsHandler": {
+          "deploymentBucketName": "amplify-newsapp-dev-151322-deployment",
+          "s3Key": "amplify-builds/NewsHandler-485a682f6a7436616c33-build.zip"
+        }
+      },
+      "storage": {
+        "news": {}
+      },
+      "api": {
+        "apinews": {}
+      }
     }
   }
 }

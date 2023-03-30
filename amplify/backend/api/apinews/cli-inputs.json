@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "paths": {
+    "/news/{newsId}": {
+      "name": "/news/{newsId}",
+      "lambdaFunction": "NewsHandler",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}
